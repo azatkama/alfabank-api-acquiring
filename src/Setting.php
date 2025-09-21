@@ -107,6 +107,11 @@ class Setting
                             'type' => 'string',
                             'location' => 'formParam',
                         ],
+                        'email' => [
+                            'required' => false,
+                            'type' => 'string',
+                            'location' => 'formParam',
+                        ],
                     ],
                 ],
                 'registerPreAuth' => [
